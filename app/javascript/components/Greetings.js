@@ -18,7 +18,8 @@ const  Greetings = ()=> {
 
   return (
     <div className="centre">
-      {greetingsData && <h1>{greetingsData.message}</h1>}
+      <h1>My greeting</h1>
+      {greetingsData && <h2>{greetingsData.message}</h2>}
     </div>
   );
 }
